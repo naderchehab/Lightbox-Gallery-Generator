@@ -8,7 +8,6 @@ width: 520px;
 .gallery ul img {
 		border: 5px solid #ddd;
 		border-width: 5px 5px 5px;
-
 }
 
 .gallery ul a:hover img {
@@ -18,3 +17,7 @@ color: #fff;
 }
 
 .gallery ul a:hover { color: #fff; }
+
+.gallery a:link {text-decoration: none;}
+.gallery a:visited {text-decoration: none;}
+.gallery a:hover {text-decoration: none;}
