@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AppConfig>
+
+	<!-- Source directory of images -->
+	<SourceDir>source</SourceDir>
+	
+	<!-- Destination directory of images -->
+	<DestDir>portfolio</DestDir>
+	
+	<!-- Path of the template file -->
+	<TemplatePath>PortfolioTemplate.html</TemplatePath>
+	
+	<!-- Destination path of the html file -->
+	<HtmlDestPath>portfolio.html</HtmlDestPath>
+	
+	<!-- Maximum width of images when resizing -->
+	<MaxWidth>600</MaxWidth>
+	
+	<!-- Maximum height of images when resizing -->
+	<MaxHeight>800</MaxHeight>
+	
+	<!-- Maximum width of thumbnails -->
+	<MaxThumbWidth>100</MaxThumbWidth>
+	
+	<!-- Maximum height of thumbnails -->
+	<MaxThumbHeight>100</MaxThumbHeight>
+	
+	<!-- Thumbnail prefix -->
+	<ThumbPrefix>t_</ThumbPrefix>
+	
+	<!-- If set to True, resized images will be generated. -->
+	<DoResize>True</DoResize>
+	
+	<!-- If set to True, thumbnails will be generated. -->
+	<DoThumb>True</DoThumb>
+	
+	<!-- If set to True, the html gallery file will be generated from the template file. -->
+	<GenerateHtml>True</GenerateHtml>
+	
+</AppConfig>
