@@ -4,7 +4,10 @@ Author: Nader Chehab
 
 Date: June 25, 2011
 
-Requirements: Python version 3.2
+Requirements:
+- Python version 3.2
+- Python Imaging Library 1.1.7 for Python 2.7 (http://www.pythonware.com/products/pil/
+  download and install into D:\Program Files\Python32\Lib\site-packages\PIL
 
 License: Creative Commons Attribution 3.0 Unported License.
 
