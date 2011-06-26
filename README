@@ -22,3 +22,4 @@ To run on linux with a shell command:
 This will create:
 - an html file (portfolio.html by default) which was generated according to the template (PortfolioTemplate.html by default)
 - a folder of resized images + their thumbnails inside the portfolio folder. The source of these images is the 'source' folder, by default.
+- If you add/remove images and folders from the source folder and regenerate, portfolio.html will modified accordingly.
