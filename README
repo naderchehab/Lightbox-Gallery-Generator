@@ -1,0 +1,24 @@
+Name: Lightbox Gallery Generator
+
+Author: Nader Chehab
+
+Date: June 25, 2011
+
+Requirements: Python version 3.2
+
+License: Creative Commons Attribution 3.0 Unported License.
+
+How to use:
+
+Edit GalleryGenerator.xml to setup the configuration. Default settings should work fine.
+
+To run on windows: Edit Run.bat and set the correct path to python.exe then run it or simply type:
+python __init__.py
+
+To run on linux with a shell command:
+./__init__.py
+
+
+This will create:
+- an html file (portfolio.html by default) which was generated according to the template (PortfolioTemplate.html by default)
+- a folder of resized images + their thumbnails inside the portfolio folder. The source of these images is the 'source' folder, by default.
